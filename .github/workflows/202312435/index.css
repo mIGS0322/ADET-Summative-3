@@ -1,0 +1,68 @@
+body {
+    font-family: Times 'Times New Roman', Times, serif, sans-serif;
+    background-image: url('https://mrwallpaper.com/images/hd/anime-scenery-japanese-castle-bsiem6lfu1e6394x.jpg');
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+   
+}
+main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 200px;
+    border-radius: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+}
+
+
+
+form {
+    margin-bottom: 10px;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 10px solid #ddd;
+    margin-right: 10px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(154, 154, 252);
+    color:  black;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
